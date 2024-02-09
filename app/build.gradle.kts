@@ -1,5 +1,7 @@
 plugins {
     id("com.android.application")
+    id ("maven-publish")
+
 }
 
 android {
@@ -33,7 +35,7 @@ android {
 
 dependencies {
 
-    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.appcompat:appcompat:1.6.0")
     implementation("com.google.android.material:material:1.5.0-alpha02")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation(project(mapOf("path" to ":toaster")))
