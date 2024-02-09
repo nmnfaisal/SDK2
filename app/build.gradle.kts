@@ -1,7 +1,6 @@
 plugins {
     id("com.android.application")
     id ("maven-publish")
-
 }
 
 android {
@@ -31,6 +30,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
 }
 
 dependencies {
@@ -38,6 +38,7 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.0")
     implementation("com.google.android.material:material:1.5.0-alpha02")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+//    implementation("com.github.nmnfaisal:SDK2:1.0.3")
     implementation(project(mapOf("path" to ":toaster")))
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
