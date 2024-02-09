@@ -45,7 +45,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.nmnfaisal" // your git id
                 artifactId = "SDK2" // your repository
-                version = "1.0.3" // As same as the Tag
+                version = "1.0.5" // As same as the Tag
             }
         }
     }
